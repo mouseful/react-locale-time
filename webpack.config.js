@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    index: ['@babel/polyfill', './example.App.jsx'],
+    index: ['@babel/polyfill', './example/App.jsx'],
   },
   output: {
     filename: '[name].js',
@@ -11,7 +11,7 @@ module.exports = {
   module: {
     rules: [
       {
-        text: /\.jsx$/,
+        test: /\.jsx$/,
         exclude: /node_modules/,
         use: 'babel-loader',
       },
@@ -20,6 +20,7 @@ module.exports = {
   mode: 'production',
   plugins: [],
   devServer: {
+    inline: false,
     contentBase: './example',
     host: '0.0.0.0',
   },

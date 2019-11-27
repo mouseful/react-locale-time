@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "example": "webpack-dev-server --mode development",
     "build": "rollup -c",
     "build:watch": "rollup -c --watch"
   },
@@ -18,6 +19,8 @@
     "@babel/preset-env": "^7.7.4",
     "@babel/preset-react": "^7.7.4",
     "babel-loader": "^8.0.6",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
     "rollup": "^1.27.5",
     "rollup-plugin-babel": "^4.3.3",
     "webpack": "^4.41.2",

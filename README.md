@@ -1,4 +1,5 @@
 # react-locale-time
+
 [![ReactJs][react-image]][react-url]
 [![GitHub license][license-image]][license-url]
 
@@ -9,7 +10,14 @@
 
 <br>
 
+### react locale time react component
+
+- just show locale time
+
+<br>
+
 # Install
+
 ```
 // npm
 npm install react-locale-time --save
@@ -18,6 +26,7 @@ npm install react-locale-time --save
 <br>
 
 # Usage
+
 ```
 import LocaleTime from 'react-locale-time';
 

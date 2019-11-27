@@ -1,8 +1,8 @@
 {
   "name": "react-locale-time",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "react locale time component",
-  "main": "index.js",
+  "main": "dist/LocaleTime.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "example": "webpack-dev-server --mode development",
@@ -10,7 +10,7 @@
     "build:watch": "rollup -c --watch"
   },
   "author": "kimsangyeon",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.7.4",
     "@babel/plugin-proposal-class-properties": "^7.7.4",

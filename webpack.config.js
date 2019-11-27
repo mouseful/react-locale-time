@@ -20,7 +20,6 @@ module.exports = {
   mode: 'production',
   plugins: [],
   devServer: {
-    inline: false,
     contentBase: './example',
     host: '0.0.0.0',
   },

@@ -31,10 +31,13 @@ npm install react-locale-time --save
 import LocaleTime from 'react-locale-time';
 
 const App = () => {
+  const [state, setState] = useState('');
+  const [loadTime] = useLoadTime();
+
   return (
     <div>
-      <h1>Locale Time Example</h1>
-      <LocaleTime />
+      <div>load time: {loadTime}</div>
+      <div>state: {state}</div>
     </div>
   );
 };
